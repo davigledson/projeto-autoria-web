@@ -1,0 +1,162 @@
+/* Estilos Gerais */
+body{
+    background-color:#25282E;
+    color: white;
+}
+* { background-color:#25282E ;
+    color: white;
+}
+
+.secondary-color{
+    color: #555;
+}
+
+a, i {
+    transition: .5s;
+    text-decoration: none;
+}
+
+.center-image{
+    background-size: cover;
+    background-position: center;
+}
+
+.btn{
+    text-decoration: none;
+    background-color: #25282e;
+    color: #fff;
+    border-radius: 0;
+}
+
+.btn:hover{
+    background-color: #333;
+}
+
+/* Header */
+
+#header{
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+    
+}
+
+#header p {
+    margin-bottom: 0;    
+}
+
+#logo-container{
+    display: flex;
+    justify-content: center;
+}
+#logo-container i{
+    font-size: 35px;
+}
+#logo{
+    width: 40px;
+
+}
+
+
+
+/* Navbar */
+#navbar {
+    display: flex;
+    
+    justify-content:center;
+    align-items: center;
+    width: 100%; 
+}
+#navbar div{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}
+
+#navbar a{
+    width: 100%;
+    margin: 10px;
+    color: #444;
+}
+
+#navbar a:hover{
+    color:#C1b696;
+}
+
+/* Imagem Principal */
+
+.imagem-principal{
+    height: 450px;
+    background-image: url("../img/imagem1.jpg");
+    margin-bottom: 30px;
+    position: relative;
+}
+
+/* Galeria */
+
+#lanc1{
+    background-image: url(../img/imagem2.jpg);
+    background-size: cover;
+}
+#lanc2{
+    background-image: url(../img/imagem3.jpg);
+}
+#lanc3{
+    background-image: url(../img/imagem4.jpg);
+}
+#lanc4{
+    background-image: url(../img/imagem5.gif);
+}
+#lanc5{
+    background-image: url(../img/imagem6.jpg);
+}
+#lanc6{
+    background-image: url(../img/imagem7.webp);
+}
+
+#galeria-container h1{
+    text-align: center;
+}
+
+#galeria-container h1,
+#galeria-container .col-md-6,
+#galeria-container .col-12 {
+margin-bottom: 50px;
+}
+
+.imagens-menores-container {
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+
+footer{
+    border-top: 1px solid #ccc;
+    height: 250px;
+    padding: 30px;
+}
+
+footer i{
+    font-size: 20px;
+}
+
+footer p{
+    text-align: center;
+    margin: 20px;
+}
+
+#social-icons-container{
+    padding: 25px;
+}
+
+#social-icons-container div{
+    text-align: center;
+}
+
+a:hover i{
+    color: #C1b696
+}
