@@ -1,10 +1,7 @@
 /* Estilos Gerais */
-body{
-    background-color:#25282E;
-    color: white;
-}
-* { background-color:#25282E ;
-    color: white;
+
+* { 
+    color: #25282E ;
 }
 
 .secondary-color{
@@ -67,13 +64,14 @@ a, i {
     align-items: center;
     width: 100%; 
 }
-#navbar div{
+#navbar ul{
     padding: 10px;
     margin: 10px;
     display: flex;
     flex-direction: row;
     justify-content:center;
     align-items: center;
+    list-style: none;
 }
 
 #navbar a{
@@ -85,7 +83,10 @@ a, i {
 #navbar a:hover{
     color:#C1b696;
 }
-
+.icones img{
+    width: 30px;
+    cursor: pointer;
+}
 /* Imagem Principal */
 
 .imagem-principal{
@@ -159,4 +160,10 @@ footer p{
 
 a:hover i{
     color: #C1b696
+}
+
+@media screen and (max-width:950px){
+    #navbar ul{
+        flex-wrap: wrap;
+    }
 }
