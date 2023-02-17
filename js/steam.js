@@ -1,4 +1,4 @@
-const mudartema = document.querySelector('#temaSteam')
+const mudarTemaSteam = document.querySelector('#temaSteam')
 
 
 
@@ -7,16 +7,17 @@ const mudartema = document.querySelector('#temaSteam')
 
     //Toggle dark mode
 
-function toggleDarkMode(){
+function toggleSteamMode(){
     document.body.classList.toggle('steamColors')
 }
 
     //Load steamColors or dark mode
 
     function CarregarTema(){
-        const darkmode =localStorage.getItem('steamColors')
-        if(darkmode){
-            toggleDarkMode()
+        const steamMode =localStorage.getItem('steamColors')
+        if(steamMode){
+            toggleSteamMode()
+            
         }
     }
 
@@ -24,10 +25,11 @@ CarregarTema()
 
 
 
-mudartema.addEventListener('change',function(){
-    toggleDarkMode()
+mudarTemaSteam.addEventListener('change',function(){
+    toggleSteamMode()
     //Save or remove Dark mode
     localStorage.removeItem('steamColors')
+    
 
     if(document.body.classList.contains('steamColors')){
         localStorage.setItem('steamColors',1)

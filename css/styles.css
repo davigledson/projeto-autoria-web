@@ -18,7 +18,27 @@
 .steamColors #navbar a{
     color: #1BAEDF;
 }
+.epicColors {
+    background-color: #121212;
+    color: #F5F5F5;
+}
+.epicColors *{
+    color: #F5F5F5;
+}
+.epicColors .secondary-color{
+    color: #F5F5F5;
+}
 
+.epicColors #navbar a{
+    color: #F5F5F5;
+}
+.epicColors .icones img{
+    color: #F5F5F5;
+    background-color: white;
+}
+.epicColors .btn{
+    color: #F5F5F5;
+}
 * { 
     color: #25282E ;
     
