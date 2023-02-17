@@ -10,18 +10,22 @@ const mudarTemaEpic = document.querySelector('#temaEpic')
 
 function toggleEpicMode(){
     document.body.classList.toggle('epicColors')
+    
+    
 }
 
     //Load epicColors or dark mode
 
-    function CarregarTema(){
+    function CarregarTemaEpic(){
         const epicmode =localStorage.getItem('epicColors')
         if(epicmode){
             toggleEpicMode()
+            
+            
         }
     }
 
-CarregarTema()
+CarregarTemaEpic()
 
 
 

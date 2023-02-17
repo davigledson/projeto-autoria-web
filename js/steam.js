@@ -9,19 +9,22 @@ const mudarTemaSteam = document.querySelector('#temaSteam')
 
 function toggleSteamMode(){
     document.body.classList.toggle('steamColors')
+    
+    
 }
 
     //Load steamColors or dark mode
 
-    function CarregarTema(){
+    function CarregarTemaSteam(){
         const steamMode =localStorage.getItem('steamColors')
         if(steamMode){
             toggleSteamMode()
             
-        }
+            
+        } 
     }
 
-CarregarTema()
+CarregarTemaSteam()
 
 
 

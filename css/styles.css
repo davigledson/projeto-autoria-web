@@ -43,7 +43,11 @@
     color: #25282E ;
     
 }
-
+.primary-color{
+    color: #555;
+    font-size: 1.2em;
+    text-align: justify;
+}
 .secondary-color{
     color: #555;
 }
