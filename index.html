@@ -24,19 +24,30 @@
             </div>
             <p>Meu Blog pessoal</p>
         </header>
+        <main>
         <nav id="navbar" class="container">
             <div>
                 <ul>
 
-                <li class="icones"><img src="img/epic-games.svg" alt=""></li>
+                <li class="icones">
+                    <input type="checkbox" name="mudar_tema" id="mudar_tema" >
+                    <label for="mudar_tema" >
+                        <img src="img/epic-games.svg" alt="">
+                    </label> 
+                    
+                </li>
 
                 <li><a href="index.html">Jogos</a></li>
                 <li><a href="finalizados.html">Finalizados Recentemente</a></li>
                 <li><a href="#">Gameplays</a></li>
                 <li><a href="#">Sobre</a></li>
 
-                 <li class="icones"><img src="img/steam.svg" alt=""></li>
-
+                    <li class="icones">
+                        <input type="checkbox" name="temaSteam" id="temaSteam" >
+                        <label for="temaSteam" >
+                           <img src="img/steam.svg" alt="">
+                        </label> 
+                    </li>
                 </ul>
                 
                 
@@ -127,6 +138,7 @@
     </footer>
 
 
-    
+   </main> 
 </body>
 </html>
+<script src="js/steam.js"></script>

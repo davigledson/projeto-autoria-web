@@ -1,12 +1,33 @@
 /* Estilos Gerais */
+.steamColors  {
+    background-color: #1B2838;
+    color: #1BAEDF;
+    transition: .5s;
+}
+.steamColors *{
+    color: #1BAEDF;
+}
+
+.steamColors .btn{
+    color: #1BAEDF;
+}
+.steamColors .secondary-color{
+    color: #1BAEDF;
+}
+
+.steamColors #navbar a{
+    color: #1BAEDF;
+}
 
 * { 
     color: #25282E ;
+    
 }
 
 .secondary-color{
     color: #555;
 }
+
 
 a, i {
     transition: .5s;
