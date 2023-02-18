@@ -10,6 +10,16 @@ display: none;
 .steamColors *{
     color: #1BAEDF;
 }
+.steamColors #epic-white{
+display: none;
+}
+.steamColors #epic-blue{
+    display: block;
+  
+    }
+#epic-blue{
+    display: none;
+}
 
 .steamColors .btn{
     color: #1BAEDF;
@@ -32,9 +42,29 @@ body {
 }
 
 
- .icones img{
-    color: #F5F5F5;
-    background-color: white;
+.icones{
+    margin: 0px 50px;
+       
+}
+.icones i{
+font-size: 3em;
+cursor: pointer;
+}
+.epic-logo{
+    cursor: pointer;
+    vertical-align: baseline;
+    width: 3.6em;
+}
+
+#border-left{
+    border-left: 2px solid #fff;
+    padding-left: 2em;
+    
+}
+#border-right{
+    border-right: 2px solid #fff;
+    padding-right: 2em;
+    
 }
  .btn{
     color: #F5F5F5;
@@ -75,6 +105,10 @@ a, i {
     text-align: center;
     padding: 20px;
     border-bottom: 1px solid #ccc;
+    display: flex;
+    flex-direction: row;
+   
+   
     
 }
 
@@ -91,6 +125,7 @@ a, i {
 }
 #logo{
     width: 40px;
+    
 
 }
 
@@ -102,7 +137,7 @@ a, i {
     
     justify-content:center;
     align-items: center;
-    width: 100%; 
+  
 }
 #navbar ul{
     padding: 10px;
@@ -123,10 +158,7 @@ a, i {
 #navbar a:hover{
     color:#C1b696;
 }
-.icones img{
-    width: 30px;
-    cursor: pointer;
-}
+
 /* Imagem Principal */
 
 .imagem-principal{
